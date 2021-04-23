@@ -1,0 +1,344 @@
+.color-h1{
+    color: #D21F19;
+}
+.mover-menu{
+    justify-content: flex-end;
+}
+
+.menu{
+    text-decoration: none;
+    color: #777;    
+    text-transform: uppercase;
+   
+    
+}
+nav{
+    margin-top: 10px;
+}
+.menu:hover{
+    color: #D21F19 !important;
+    text-decoration: none;
+}
+.logo{
+    width: 300px;
+}
+.texto{
+    font-family: 'open sans',Arial, Helvetica, sans-serif;
+}
+.galeria{
+    width: 100%;    
+}
+.galeria img{
+    vertical-align: top;
+    width: 250px;
+    margin: 10px;
+    border-radius: 20px;    
+}
+.galeria img:hover{    
+    opacity: 1;
+}
+/*.imgSlider{
+    height: 450px;
+}*/
+
+
+.main-inicio{
+    padding: 30px;
+}
+.btn-vermas{
+    justify-content: center;
+}
+/* marcas*/
+.marcas{
+    background: rgba(0,0,0,.2);
+    height: 200px;
+}
+.img-marcas{
+    width: 150px;
+    opacity: 50%;
+    padding: 20px;
+    
+}
+.img-marcas:hover{
+    opacity: 100%;
+}
+
+
+.color-footer{
+    background: #353535;
+    color: rgba(176, 176, 176, 1);
+    
+}
+.fuente-footer{
+    padding-left: 20px;
+    text-align: center;
+}
+.color-footer2{
+    background: rgba(0,0,0,.9);
+    color: rgba(176, 176, 176, 1);
+    font-size: 12px;
+}
+.sociales-footer{
+    float: right;
+    padding-right: 40px;
+}
+.icon-sociales{
+    font-size: 30px;
+}
+.icon-youtube{
+    color: #D21F19;
+}
+.icon-insta{
+    color:  rgb(149, 43, 211);
+}
+.derecho-reservado{
+    padding-left: 20px;
+}
+/*Quines somos */
+.caja{
+    background: #D21F19;
+    padding: 35px;
+   
+}
+.titulo-h2{
+    font-size: 42px;
+    margin-top: 50px;
+    margin-bottom: 24px;
+    color: #353535;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.color-txt{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.titulo-parrafo{
+    font-weight: bold;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #656565;
+}
+.parrafo{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #656565;
+}
+/* servicios*/
+
+.separacion{
+    margin-top: 30px;
+}
+.img-cerco{
+    width: 450px;
+    border-radius: 10px;
+
+}
+.txt-titulo{
+    font-weight: bold;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #656565;
+}
+.txt-parrafo{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #656565;
+    
+
+}
+.img-cercolg{
+    width: 500px;
+    height: 280px;
+    border-radius: 10px;
+}
+.separa-conten{
+    padding: 20px;
+}
+.centrar{
+    text-align: center;
+}
+.img-cam{
+    width: 360px;
+    border-radius: 10px;
+}
+.img-momentaneo{
+    width: 350px;
+    border-radius: 10px;
+}
+/*galeria*/
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+    .gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+    .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+    
+    @media (max-width: 450px) {
+    .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    }
+    }
+    
+    @media (max-width: 400px) {
+    .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    }
+    }
+
+    .tamano-img{
+        width: 350px;
+        
+    }
+    .menu-galeria:hover{
+        background-color: #D21F19 ;
+        color: #fff !important ;    
+    }
+    /* contacto*/
+
+    .embed-container {
+        position: relative;
+        padding-bottom: 400px;
+        height: 0;
+        overflow: hidden;
+    }
+    .embed-container iframe {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .espacio-form{
+        padding: 10px !important ;
+    }
+   /* icon-whatsapp insta*/
+   .icon-what{
+       width: 30px;
+       border-radius: 50px;
+   }
+   .icon-instagram{
+       width: 70px;
+       opacity: 50%;
+       padding-bottom: 20px;
+   }
+   .icon-instagram:hover{
+    opacity: 100%;
+}
+.instagram-centrar{
+    display:block;
+    margin:auto;
+}
+/* form-contacto*/
+
+
+/* formulario contacto2*/
+
+
+/* clientes*/
+/* --- --- CAROUSEL --- --- */
+.carousel__contenedor {
+	position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: #D21F19;
+	color: #fff;
+	opacity: 20%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior {
+	left: -18px;
+}
+
+.carousel__siguiente {
+	right: -18px;
+}
+
+.carousel__lista {
+	overflow: hidden;
+}
+
+.carousel__elemento {
+	text-align: center;
+}
+
+.carousel__indicadores .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #fff;
+	opacity: .2;
+	border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active {
+	opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		padding: 40px 0;
+	}
+
+	.contenido-principal {
+		flex-direction: column;
+	}
+
+	.contenido-principal > * {
+		width: 100%;
+	}
+}
+.clientes{
+    width: 200px;
+}
+/*quitar botones atributo type="number" */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+/* modal, Para ocultar solo cambiar el valor de la propiedad visibility: hidden; en la clase .modal-ocultar */
+.img-promocion{
+    max-width: 100%;
+}
+.modal-ocultar{
+    display: none;
+    visibility: hidden;    
+}
+.modal-lg { 
+    max-width: 80% !important; 
+} 
